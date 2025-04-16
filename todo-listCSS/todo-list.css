@@ -1,0 +1,50 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 500px;
+}
+#error_msg{
+    color: red;
+}
+.todo-container-css{
+    display: grid;
+    grid-template-columns: 280px 143px 70px;
+    row-gap: 5px;
+    margin-top: 10px;
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;
+}
+.input-css{
+    padding: 6px 20px 6px 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.add-button-css{
+    padding: 7px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.add-button-css:hover{
+    opacity: 0.8;
+}
+.add-button-css:active{
+    opacity: 0.5;
+}
+.delete-button{
+    border-radius: 5px;
+    padding:5px 15px ;
+    background-color: rgb(238, 4, 4);
+    border: none;
+    color: rgb(238, 225, 225);
+    font-weight: bold;
+    cursor: pointer;
+}
